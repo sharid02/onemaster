@@ -12,23 +12,8 @@ $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 })
 
-// owl js
-$(document).ready(function() {
- 
-  $("#owl-demo").owlCarousel({
- 
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem:true,
-      autoPlay : 5000,
- 
-      // "singleItem:true" is a shortcut for:
-      // items : 1, 
-      // itemsDesktop : false,
-      // itemsDesktopSmall : false,
-      // itemsTablet: false,
-      // itemsMobile : false
- 
-  });
- 
-});
+Open Your Door to The World
+The Most Demanding Career Globally
+The Fastest Growing Industry
+Globally The Safest Working Environment for Woman
+Easy Career Diversification

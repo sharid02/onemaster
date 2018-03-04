@@ -94,33 +94,68 @@ p {
   font-size: 18px;
 }
 
+.owl-caption {
+  position: absolute;
+  left: 1px;
+  bottom: 0px;
+  color: #fff;
+  font-weight: bold;
+  padding: 15px 0px 0px 50px;
+  min-height: 63px;
+  width: 743px;
+  font-size: 25px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.slider {
+  position: relative;
+  margin-top: 10px;
+}
+
 .slider-area {
   padding-bottom: 25px;
+  position: relative;
 }
 .slider-area h2 {
   font-size: 36px;
-  padding-top: 30px;
+  padding-top: 40px;
 }
 .slider-area p {
-  font-size: 16px;
-}
-.slider-area .slider {
-  max-width: 0 0 61.666667%;
-  flex: 0 0 60.666667%;
-  margin-top: 15px;
+  font-size: 18px;
 }
 .slider-area .slider-box {
   height: 80px;
   width: 400px;
   background: #001d9a;
   padding-bottom: 15px;
-  margin: 159px 20px 0px 0px;
+  margin: 125px 20px 0px 0px;
 }
 
-#owl-demo .item img {
-  display: block;
-  width: 100%;
-  height: auto;
+#owl-carousel.owl-dots.owl-dot {
+  background: red;
+  height: 15px;
+  width: 15px;
+}
+
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  display: none;
+}
+
+.owl-theme .owl-dot {
+  margin-top: 10px;
+}
+
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .feature {
@@ -158,6 +193,12 @@ p {
 #about .about-text {
   margin: 30px 0px 0px 25px;
 }
+#about .about-text h2 {
+  font-size: 25px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
 #about img {
   height: 350px;
   width: 400px;
@@ -168,7 +209,7 @@ p {
   margin-bottom: 100px;
 }
 .message p {
-  font-size: 12px;
+  font-size: 13px;
   margin-left: 15px;
   font-family: 'Hind Siliguri', sans-serif;
   font-weight: 400;
@@ -205,7 +246,7 @@ p {
   font-size: 36px;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 50px 0px 0px 6px;
+  padding: 50px 0px 5px 6px;
 }
 #program h2 {
   font-size: 36px;
@@ -241,9 +282,6 @@ p {
 }
 #program .img-box h2 {
   text-transform: capitalize;
-}
-#program .img-box img {
-  float: left;
 }
 #program .img-box {
   padding-left: 80px;
